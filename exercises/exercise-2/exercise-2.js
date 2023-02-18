@@ -71,7 +71,7 @@ let hogwarts = [
   },
 ];
 
-// task 1
+//task 1
 hogwarts.filter(obj => {
 let {house} = obj;
   return house === "Gryffindor";
